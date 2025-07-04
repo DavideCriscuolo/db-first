@@ -12,6 +12,6 @@
 - Colore Varchar(20) NULL
 - Lavori_Effettuati Text NULL
 - Optional Text NULL
-- Anno_di_produzione Year
-- Potenza_Cv Int
-- Prezzo Money
+- Anno_di_produzione Year Not Null
+- Potenza_Cv Int Not Null
+- Prezzo Money Not Null Index
